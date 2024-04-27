@@ -6,7 +6,8 @@ zshdir=$HOME/.config/zsh
 
 mkdir -p $zshdir
 
-cp ./* $zshdir
+cp -r ./plugins "$zshdir"
+cp -rsf .* "$zshdir"
 
 for file in *; do
     if [ -f "$file" ]; then
