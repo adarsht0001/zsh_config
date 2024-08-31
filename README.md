@@ -1,2 +1,0 @@
-## ZSH CONFIG FILE
-
